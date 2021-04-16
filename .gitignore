@@ -1,3 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+#Pycharm
+.idea/
+
+# Virtual environments
+venv/
+*.pyc
+Pipfile
+Pipfile.lock
+
 # Logs
 logs
 *.log
