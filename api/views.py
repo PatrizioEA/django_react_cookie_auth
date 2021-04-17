@@ -5,9 +5,6 @@ from django.http import JsonResponse
 from django.middleware.csrf import get_token
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_POST
-from rest_framework.authentication import SessionAuthentication, BasicAuthentication
-from rest_framework.permissions import IsAuthenticated
-from rest_framework.views import APIView
 
 def get_csrf(request):
     response = JsonResponse({'detail': 'CSRF cookie set'})
